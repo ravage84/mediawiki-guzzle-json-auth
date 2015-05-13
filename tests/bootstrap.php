@@ -10,6 +10,9 @@
  * @author Marc Würth <ravage@bluewin.ch>
  */
 
+// Load the Composer autoloader
+require_once dirname(__FILE__) . '/../vendor/autoload.php';
+
 /**
  * A stub function of the mediawiki core function
  *
