@@ -13,9 +13,10 @@ Authenticate your MediaWiki with a JSON endpoint using a configurable Guzzle cli
 ### Requirements
 
 - PHP >= 5.4
-- MediaWiki
+- Composer
+- MediaWiki 1.22
 
-Via Composer
+### Via Composer
 
 ``` bash
 $ composer require mediawiki/guzzle-json-auth
