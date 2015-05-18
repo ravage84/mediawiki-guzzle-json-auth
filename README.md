@@ -6,7 +6,7 @@ Authenticate your MediaWiki with a JSON endpoint using a configurable Guzzle cli
 [![Build Status](https://img.shields.io/travis/ravage84/mediawiki-guzzle-json-auth/master.svg?style=flat-square)](https://travis-ci.org/ravage84/mediawiki-guzzle-json-auth)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/ravage84/mediawiki-guzzle-json-auth.svg?style=flat-square)](https://scrutinizer-ci.com/g/ravage84/mediawiki-guzzle-json-auth/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ravage84/mediawiki-guzzle-json-auth.svg?style=flat-square)](https://scrutinizer-ci.com/g/ravage84/mediawiki-guzzle-json-auth)
-[![Total Downloads](https://img.shields.io/packagist/dt/mediawiki/mediawiki-guzzle-json-auth.svg?style=flat-square)](https://packagist.org/packages/mediawiki/mediawiki-guzzle-json-auth)
+[![Total Downloads](https://img.shields.io/packagist/dt/mediawiki/guzzle-json-auth.svg?style=flat-square)](https://packagist.org/packages/mediawiki/guzzle-json-auth)
 
 ## Install
 
