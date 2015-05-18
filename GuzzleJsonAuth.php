@@ -10,14 +10,6 @@
  * @author Marc Würth <ravage@bluewin.ch>
  */
 
-if (!defined('MEDIAWIKI') ) {
-    die('Not an entry point.');
-}
-
-if (!isset($GLOBALS['wgVersion']) || version_compare($GLOBALS['wgVersion'], '1.22', '<' ) ) {
-    die('<b>Error:</b> This version of GuzzleJsonAuth requires MediaWiki 1.22 or above.' );
-}
-
 if (defined('GJAUTH_VERSION')) {
     // Do not load this more than once
     return 1;
