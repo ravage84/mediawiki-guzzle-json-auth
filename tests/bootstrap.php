@@ -10,6 +10,10 @@
  * @author Marc Würth <ravage@bluewin.ch>
  */
 
+// Pretend there is a MediaWiki installation
+define('MEDIAWIKI', '' );
+$GLOBALS['wgVersion'] = '1.22';
+
 // Load the Composer autoloader
 require_once dirname(__FILE__) . '/../vendor/autoload.php';
 

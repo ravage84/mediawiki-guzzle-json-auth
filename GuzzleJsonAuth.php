@@ -14,7 +14,7 @@ if (!defined('MEDIAWIKI') ) {
     die('Not an entry point.');
 }
 
-if (version_compare($GLOBALS['wgVersion'], '1.22', '<' ) ) {
+if (!isset($GLOBALS['wgVersion']) || version_compare($GLOBALS['wgVersion'], '1.22', '<' ) ) {
     die('<b>Error:</b> This version of GuzzleJsonAuth requires MediaWiki 1.22 or above.' );
 }
 
