@@ -40,9 +40,9 @@ $wgGuzzleJsonResponseUsernameKey = 'username';
 $wgGuzzleJsonResponseRealNameKey = 'real_name';
 $wgGuzzleJsonResponseEmailKey = 'email';
 
-require_once("$IP/extensions/GuzzleJsonAuth/src/GuzzleJsonAuth.php");
-use \MediaWiki\GuzzleJsonAuth\GuzzleJsonAuth;
-$wgAuth = new GuzzleJsonAuth();
+// Load and initialize the GuzzleJsonAuth extension
+require_once("$IP/extensions/GuzzleJsonAuth/GuzzleJsonAuth.php");
+$wgAuth = new \MediaWiki\GuzzleJsonAuth\GuzzleJsonAuth();
 ````
 
 Authenticated users will be created in your Wikis database,
