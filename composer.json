@@ -43,7 +43,10 @@
     "autoload": {
       "psr-4": {
         "MediaWiki\\GuzzleJsonAuth\\": "src"
-      }
+      },
+      "files" : [
+        "GuzzleJsonAuth.php"
+      ]
     },
     "autoload-dev": {
       "psr-4": {

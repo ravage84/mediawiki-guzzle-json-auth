@@ -12,19 +12,6 @@
 
 namespace MediaWiki\GuzzleJsonAuth;
 
-// @codeCoverageIgnoreStart
-$version = '0.1.0';
-
-$wgExtensionCredits['other'][] = array (
-    'name' => 'GuzzleJsonAuth',
-    'author' => '[https://github.com/ravage84/ Marc Würth]',
-    'description' => 'Authenticate with a JSON endpoint using a configurable Guzzle client',
-    'url' => 'https://github.com/ravage84/mediawiki-guzzle-json-auth',
-    'version' => $version,
-    'license-name' => "MIT",
-);
-// @codeCoverageIgnoreEnd
-
 use \GuzzleHttp\Client;
 use \GuzzleHttp\Message\ResponseInterface;
 
