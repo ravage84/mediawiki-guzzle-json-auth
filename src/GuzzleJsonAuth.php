@@ -74,6 +74,7 @@ class GuzzleJsonAuth extends \AuthPlugin
      * Authenticate with a JSON endpoint using a configurable Guzzle client
      *
      * {@inheritDoc}
+     * @SuppressWarnings(PHPMD.Superglobals)
      */
     public function authenticate($username, $password)
     {
@@ -247,6 +248,7 @@ class GuzzleJsonAuth extends \AuthPlugin
      * @param string $username The username to authenticate.
      * @param string $password The password to authenticate.
      * @return array The set authentication data.
+     * @SuppressWarnings(PHPMD.Superglobals)
      */
     protected function _setAuthData($username, $password)
     {
@@ -279,6 +281,7 @@ class GuzzleJsonAuth extends \AuthPlugin
      *
      * @param ResponseInterface $response The Guzzle response object.
      * @return array The extracted user data with 'username', 'realName' & 'email'.
+     * @SuppressWarnings(PHPMD.Superglobals)
      */
     protected function _extractUserData(ResponseInterface $response)
     {
