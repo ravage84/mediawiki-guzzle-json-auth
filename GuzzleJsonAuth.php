@@ -15,6 +15,7 @@ if (!defined('GJAUTH_VERSION')) {
 }
 
 // Registration of the extension credits, see Special:Version.
+global $wgExtensionCredits;
 $wgExtensionCredits['other'][] = array(
     'path' => __FILE__,
     'name' => 'Guzzle JSON Auth',
