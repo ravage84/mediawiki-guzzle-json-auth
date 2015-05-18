@@ -23,7 +23,7 @@ if (defined('GJAUTH_VERSION')) {
     return 1;
 }
 
-define( 'GJAUTH_VERSION', '0.1.0' );
+define('GJAUTH_VERSION', '0.1.0');
 
 // Registration of the extension credits, see Special:Version.
 $wgExtensionCredits['other'][] = array(
