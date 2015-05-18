@@ -10,12 +10,9 @@
  * @author Marc Würth <ravage@bluewin.ch>
  */
 
-if (defined('GJAUTH_VERSION')) {
-    // Do not load this more than once
-    return 1;
+if (!defined('GJAUTH_VERSION')) {
+    define('GJAUTH_VERSION', '0.1.0');
 }
-
-define('GJAUTH_VERSION', '0.1.0');
 
 // Registration of the extension credits, see Special:Version.
 $wgExtensionCredits['other'][] = array(
