@@ -2,7 +2,7 @@
   "name": "mediawiki/guzzle-json-auth",
   "type": "mediawiki-extension",
   "description": "Authenticate with a JSON endpoint using a configurable Guzzle client",
-  "keywords"   : [
+  "keywords": [
     "wiki",
     "MediaWiki",
     "extension",
@@ -12,7 +12,7 @@
     "JSON",
     "AuthPlugin"
   ],
-  "homepage"   : "https://github.com/ravage84/mediawiki-guzzle-json-auth",
+  "homepage": "https://github.com/ravage84/mediawiki-guzzle-json-auth",
   "license": "MIT",
   "minimum-stability": "stable",
   "authors": [
@@ -20,41 +20,41 @@
       "name": "Marc Würth",
       "email": "ravage@bluewin.ch",
       "homepage": "https://github.com/ravage84/",
-      "role" : "Lead Developer"
+      "role": "Lead Developer"
     }
   ],
   "support": {
     "source": "https://github.com/ravage84/mediawiki-guzzle-json-auth",
     "issues": "https://github.com/ravage84/mediawiki-guzzle-json-auth/issues"
   },
-    "require": {
-      "php": ">=5.4.0",
-      "composer/installers": "~1.0.1",
-      "guzzlehttp/guzzle": "~5.2.0"
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0.1",
+    "guzzlehttp/guzzle": "~5.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "squizlabs/php_codesniffer": "~2.1.0",
+    "scrutinizer/ocular": "~1.1"
+  },
+  "config": {
+    "prepend-autoloader": false,
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "MediaWiki\\GuzzleJsonAuth\\": "src"
     },
-    "require-dev": {
-      "phpunit/phpunit": "~4.0",
-      "squizlabs/php_codesniffer": "~2.1.0",
-      "scrutinizer/ocular": "~1.1"
-    },
-    "config": {
-      "prepend-autoloader": false,
-      "optimize-autoloader": true
-    },
-    "autoload": {
-      "psr-4": {
-        "MediaWiki\\GuzzleJsonAuth\\": "src"
-      },
-      "files" : [
-        "GuzzleJsonAuth.php"
-      ]
-    },
-    "autoload-dev": {
-      "psr-4": {
-        "MediaWiki\\GuzzleJsonAuth\\Tests\\": "tests"
-      }
-    },
+    "files": [
+      "GuzzleJsonAuth.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MediaWiki\\GuzzleJsonAuth\\Tests\\": "tests"
+    }
+  },
   "scripts": {
     "test": "phpunit"
   }
- }
+}
