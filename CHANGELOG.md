@@ -10,6 +10,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 ## [0.1.1](https://github.com/ravage84/mediawiki-guzzle-json-auth/releases/tag/0.1.1) - 2015-05-20
+### Added
+- A scripts section to composer.json with phpunit
+
 ### Changed
 - Replaced GH Release badge with Packagist Release badge
 
