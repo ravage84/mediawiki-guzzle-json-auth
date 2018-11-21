@@ -84,7 +84,10 @@ class GuzzleJsonAuth extends \AuthPlugin
         $authData = $this->_setAuthData($username, $password);
         $options = array(
             'json' => $authData,
-            'headers' => array('content-type' => 'application/json'),
+            'headers' => array(
+                'content-type' => 'application/json',
+                'Accept' => 'application/json',
+            ),
         );
 
         // Send request
